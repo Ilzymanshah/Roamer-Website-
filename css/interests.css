@@ -1,0 +1,79 @@
+/* general styling */
+html, body {
+  margin: 0;
+  font-family: "Arial";
+  padding: 2%;
+}
+
+body {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #c0aae4;
+  text-align: center;
+}
+
+p {
+  color: #28111d;
+  font-size: 1.5rem;
+}
+
+a, .btn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* Headings */
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+/* divs */
+.container-fluid {
+  padding: 2%;
+}
+
+.row {
+  align-content: center;
+  justify-content: center;
+}
+
+/* interests */
+
+.image{
+  border-radius: 20px;
+  width: 100%;
+}
+
+.list-group {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 0;
+}
+
+.border-0{
+  background-color: #c0aae4;
+}
+
+.interest{
+  border: none;
+}
+
+
+/* mobile support */
+@media (min-width: 1000px) {
+  .list-group-item {
+    width: 47%;
+    margin: 5px 1.5%
+  }
+}
+
+@media (min-width: 1280px) {
+  .list-group-item {
+    width: 31.333%;
+    margin: 5px 1%
+  }
+}

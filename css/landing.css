@@ -1,0 +1,46 @@
+/* general styling */
+html, body {
+  margin: 0;
+  font-family: "Arial";
+  padding: 2%;
+}
+
+body {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.image{
+  width: 100%;
+}
+
+.signup {
+  background-color: #c0ade4;
+  border: none;
+  color: white;
+  padding: 15px 100px;
+  font-size: 16px;
+  border-radius: 18px;
+  margin: 2%;
+}
+
+.login {
+  background-color: white;
+  border: solid;
+  color: #c0ade4;
+  padding: 15px 100px;
+  font-size: 16px;
+  border-radius: 18px;
+  margin: 2%;
+}
