@@ -1,0 +1,97 @@
+/* general styling */
+html, body {
+  margin: 0;
+  font-family: "Arial";
+  padding: 0;
+}
+
+h1 {
+  margin: 1% 1% 0;
+  color: #C0ADE4;
+}
+
+.container-fluid {
+  margin: 1% 0 0.5%;
+}
+
+.btn{
+  border-radius: 10px;
+}
+
+.margin{
+  margin-top: 4%;
+}
+
+/* navbar */
+.title {
+  color: #C0ADE4;
+  margin: 0;
+  padding: 0;
+}
+
+.navContent{
+  margin: 0 3%;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: solid;
+  border-color: #C0ADE4;
+}
+
+.navbar{
+  margin-bottom: 3%;
+}
+
+/* profile info width */
+.profileInfo{
+  width: 20%;
+}
+
+/* profile content width */
+.profileContent{
+  width: 80%;
+}
+
+/* profile info */
+.profileImage{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.skills{
+  font-size: 1rem;
+  border-radius: 25px;
+  margin: 0;
+  padding: 0 5px;
+}
+
+/* profile content */
+.profileImg {
+  border-radius: 10px;
+  width: 15%;
+}
+
+.profileName {
+  margin: 0 20px;
+}
+
+.friendBtn {
+  width: 80%;
+}
+
+.friends {
+  width: 30%;
+}
+
+.friendsImg {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.friendUser {
+  margin-top: 10px;
+}
