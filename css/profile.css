@@ -1,0 +1,117 @@
+/* general styling */
+html, body {
+  margin: 0;
+  font-family: "Arial";
+  padding: 2%;
+}
+
+body {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 4%;
+}
+
+* {
+  box-sizing: border-box
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.image {
+  width: 100%;
+}
+
+/* Profile picture */
+#imageUpload {
+  display: hidden;
+}
+
+#profileImage {
+  cursor: pointer;
+}
+
+#profile-container {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  align-items: center;
+}
+
+#profileImage{
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* JS CODE for profile picture
+$("#profileImage").click(function(e) {
+    $("#imageUpload").click();
+});
+
+function fasterPreview( uploader ) {
+    if ( uploader.files && uploader.files[0] ){
+          $('#profileImage').attr('src',
+             window.URL.createObjectURL(uploader.files[0]) );
+    }
+}
+
+$("#imageUpload").change(function(){
+    fasterPreview( this );
+});
+ */
+
+
+/* Full-width input fields */
+input[type=text], #diploma{
+  width: 100%;
+  padding: 2%;
+  margin: 1% 0 3%;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 20px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #c0ade4;
+  color: white;
+  padding: 16px 20px;
+  margin: 1% 0 3%;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}

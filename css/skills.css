@@ -1,0 +1,55 @@
+/* general styling */
+html, body {
+  margin: 0;
+  font-family: "Arial";
+  padding: 2%;
+}
+
+body {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #c0aae4;
+  text-align: center;
+}
+
+.btn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 50px;
+  font-size: 2rem;
+}
+
+/* Headings */
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+/* divs */
+.container-fluid {
+  padding: 2%;
+}
+
+.row {
+  align-content: center;
+  justify-content: center;
+}
+
+.list-group {
+  text-align: center;
+  padding: 2% 0 5%;
+}
+
+.list-group-item {
+  width: 25%;
+}
+
+.border-0{
+  background-color: #c0aae4;
+}
+
+.interest{
+  border: none;
+}
