@@ -1,5 +1,6 @@
 /* general styling */
-html, body {
+html,
+body {
   margin: 0;
   font-family: "Arial";
   padding: 2%;
@@ -18,10 +19,18 @@ body {
 }
 
 .column {
-  flex: 50%;
+  width: 50%;
+  height: 675px;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.image{
+.image {
   width: 100%;
 }
 
@@ -31,16 +40,93 @@ body {
   color: white;
   padding: 15px 100px;
   font-size: 16px;
-  border-radius: 18px;
+  border-radius: 50px;
   margin: 2%;
+  width: 60%;
+  height: 70;
 }
 
 .login {
-  background-color: white;
+  background-color: transparent;
   border: solid;
   color: #c0ade4;
   padding: 15px 100px;
   font-size: 16px;
-  border-radius: 18px;
+  border-radius: 50px;
   margin: 2%;
+  width: 60%;
+  height: 70;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#blur-bg {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 99;
+  background-position: center -70px;
+  -webkit-filter: blur(45px);
+  filter: url("/media/blur.svg#blur");
+  filter: blur(45px);
+}
+
+#circle-1 {
+  width: 208px;
+  height: 208px;
+  background: #c0ade4;
+  border-radius: 50%;
+  margin-top: -30px;
+  margin-left: -35px;
+}
+
+#circle-2 {
+  width: 50px;
+  height: 50px;
+  background: #c0ade4;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+#circle-4 {
+  width: 360px;
+  height: 360px;
+  background: #e7baf4;
+  border-radius: 50%;
+  margin-top: 500px;
+  margin-left: 0px;
+}
+
+#circle-3 {
+  width: 430px;
+  height: 430px;
+  background: #c0ade4;
+  border-radius: 50%;
+  margin-top: -600px;
+  margin-left: 800px;
+}
+
+#circle-5 {
+  width: 210px;
+  height: 210px;
+  background: #c0ade4;
+  border-radius: 50%;
+  margin-top: -300px;
+  margin-left: 1200px;
+}
+
+#circle-6 {
+  width: 100px;
+  height: 100px;
+  background: #e7baf4;
+  border-radius: 50%;
+  margin-top: -275px;
+  margin-left: 1150px;
 }
